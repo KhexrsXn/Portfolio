@@ -64,7 +64,7 @@ function Navbar() {
         <>
             <div className="navTitle">
         <div className='logo'>
-          <a href="/"><h1>J<span>son</span></h1></a>
+          <a href="/"><h1>J<span>B</span></h1></a>
          </div>
             {screenWidth < 768 ? (
                 <i className="menu-button" onClick={() => setMenuOpen(!isMenuOpen)}>

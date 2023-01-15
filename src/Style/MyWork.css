@@ -3,13 +3,8 @@
     color: whitesmoke;
 }
 .Mywork p{
-    color: black;
-    font-weight: 700;
-}
-.Mywork h3{
-    color: black;
-    font-weight: 900;
-    font-size: 20px;
+    color: white;
+    font-weight: 600;
 }
 .workList{
     display: grid;
@@ -50,7 +45,9 @@
     font-weight: 500;
 }
 .MyWork-layer h3{
-    font-weight: 500;
+    color: yellow;
+    font-size: 20px;
+    font-weight: 800;
     margin-bottom: 20px;
 }
 .MyWork-layer a{
