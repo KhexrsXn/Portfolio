@@ -1,0 +1,84 @@
+.contact{
+    color: whitesmoke;
+    padding: 80px 3rem;
+}
+.contactRow{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    grid-gap: 40px;
+
+}
+.contact-left{
+    flex-basis: 40%;
+    color: whitesmoke;
+}
+.contact-right{
+    flex-basis: 60%;
+}
+.contact-title{
+    margin-bottom: 10px;
+}
+.contact-left p{
+    margin-top: 10px;
+    margin-left: 0;
+}
+.contact-left p i{
+    font-size: 15px;    
+}
+.social-icon{
+    margin: 20px 0 30px;
+}
+.social-icon a i{
+    background: #C147E9;
+    font-size: 30px;
+    margin-right: 20px;
+    border-radius: 50%;
+    padding: .3rem;
+    color: whitesmoke;
+}
+.social-icon a i:hover{
+    background: #810CA8;
+    transition: all .5s;
+    cursor: pointer;
+}
+.btn{
+    margin-top: 5px;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: .5rem 1rem;
+    background: #810CA8;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+}
+.btn:hover{
+    cursor: pointer;
+    background: #C147E9;
+    transition: 0.5;
+}
+.contactMargin{
+    height: 100%;
+    padding-top: .5rem;
+    padding-left: 5rem;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: whitesmoke;
+    padding: 15px;
+    margin: 10px 0 0;
+    border-radius: 10px;
+}
+@media(max-width: 769px){
+    .contact{
+        padding: 1rem;
+    }
+    .contactMargin{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

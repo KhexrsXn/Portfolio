@@ -1,0 +1,115 @@
+/*  -----This is for about------ */
+
+.about{
+    padding: 100px 3rem;
+    color: whitesmoke;
+}
+.aboutRow{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.aboutImg{
+    flex-basis: 35%;
+}
+.aboutImg img{
+    width: 100%;
+    border-radius: 20px;
+}
+.aboutText{
+    flex-basis: 60%;
+}
+.aboutTitle{
+    font-size: 50px;
+    font-weight: 600;
+}
+.aboutTitle2{
+    display: flex;
+    margin: 20px 0 40px 0;
+}
+.title-link{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+.title-link::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background: #C147E9;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.title-link.active-link::after{
+    width: 100%;
+}
+.aboutContent ul li{
+    list-style: none;
+    margin: 10px 0;
+    padding-right: 2rem;
+
+}
+.aboutContent ul li span{
+    color: #C147E9;
+    font-weight: 700;
+    font-size: 14px;
+}
+.aboutContent{
+    display: none;
+}
+
+.aboutContent.active-about{
+    display: block;
+}
+.AboutDiv{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.Aboutleft ul{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    line-height: 10px;
+}
+.Aboutright ul{
+    flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: -5px;
+    line-height: 10px;
+}
+.AboutDiv h2{
+    color: #C147E9;
+}
+.AboutDiv .icon{
+    font-size: larger;
+}
+.TabLabel label{
+    color: whitesmoke;
+}
+@media (max-width: 830px){
+    .about{
+        width: 100%;
+        padding: 1rem;
+    }
+    .aboutRow{
+        display: block;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .aboutTitle{
+        text-align: center;
+    }
+    .AboutDiv h2{
+        font-size: large;
+    }
+    .css-19kzrtu {
+        padding: 0 !important; 
+    }
+}

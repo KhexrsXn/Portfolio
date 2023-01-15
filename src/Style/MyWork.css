@@ -1,0 +1,69 @@
+.Mywork{
+    padding: 100px 3rem;
+    color: whitesmoke;
+}
+.workList{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.workDiv{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+}
+.workDiv img{
+    width: 100%;
+    aspect-ratio: 10/10;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+.MyWork-layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.5),#C147E9);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+    font-weight: 500;
+}
+.MyWork-layer h3{
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.MyWork-layer a{
+    margin-top: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #2D033B;
+    width: 60px;
+    aspect-ratio: 10/10;
+    border-radius: 50%;
+    text-align: center;
+}
+.workDiv:hover img{
+    transform:  scale(1.1);
+}
+.workDiv:hover .MyWork-layer{
+    height: 100%;
+}
+@media(max-width: 769px){
+    .Mywork{
+        padding: 1rem;
+    }
+}
