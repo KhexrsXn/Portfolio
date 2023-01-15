@@ -2,9 +2,18 @@
     padding: 100px 3rem;
     color: whitesmoke;
 }
+.Mywork p{
+    color: black;
+    font-weight: 700;
+}
+.Mywork h3{
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+}
 .workList{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit,minmax(255px, 2fr));
     grid-gap: 40px;
     margin-top: 50px;
 }

@@ -45,6 +45,35 @@ const MyWork = () => {
                     </div>
                 </div>
 
+
+                <div className='workDiv'>
+                    <img src={RPS} />
+                    <div className='MyWork-layer'>
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, debitis.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+
+                <div className='workDiv'>
+                    <img src={RPS} />
+                    <div className='MyWork-layer'>
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, debitis.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+
+                <div className='workDiv'>
+                    <img src={RPS} />
+                    <div className='MyWork-layer'>
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, debitis.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
